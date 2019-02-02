@@ -1,0 +1,52 @@
+body {
+    background: #ccc;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+.container-fluid {
+    background: #fff;
+    border-bottom: 2px #ccc solid;
+    margin-bottom: 20px;
+    padding: 0;
+
+}
+
+h2, h3 {
+    font-family: Georgia, Times, 'Times New Roman',  serif;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #fff;
+}
+
+nav {
+    padding: 10px;
+}
+
+.nav-link{
+    color: #ccc;
+}
+
+.nav-link active {
+    color: #4aaaa5;
+}
+
+.container {
+    max-width: 960px;
+    margin-bottom: 0;
+    background: #fff;
+}
+
+h3 {
+    color: #4aaaa5;
+    padding: auto;
+}
+
+img {
+    margin-right: 10px;
+}
+
