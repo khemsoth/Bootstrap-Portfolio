@@ -53,7 +53,7 @@ img {
 .port-label {
     background: #4aaaa5;
     color: #fff;
-    width: 300px;
+    width: auto;
     margin: 10px;
     padding: 3%;
     position: relative;
@@ -84,4 +84,9 @@ p {
 hr {
     width: 95%;
     border-top: 2px #ccc solid;
+}
+
+a:hover {
+    text-decoration: none;
+    filter: grayscale(100%);
 }
