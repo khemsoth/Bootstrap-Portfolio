@@ -97,6 +97,10 @@ hr {
     border-top: 2px #ccc solid;
 }
 
+.btn-primary:hover {
+    background-color: #ccc;
+}
+
 .port-label:hover {
     text-decoration: none;
 }
