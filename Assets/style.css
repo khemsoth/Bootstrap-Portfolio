@@ -11,8 +11,10 @@ body {
 
 }
 
-h2, h3, h4 {
-    font-family: Georgia, Times, 'Times New Roman',  serif;
+h2,
+h3,
+h4 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
@@ -27,7 +29,7 @@ nav {
     padding: 10px;
 }
 
-.nav-link{
+.nav-link {
     color: #ccc;
 }
 
@@ -86,7 +88,25 @@ hr {
     border-top: 2px #ccc solid;
 }
 
-a:hover {
+.float-left:hover {
+    filter: grayscale(80%);
+}
+
+.port-label:hover {
     text-decoration: none;
-    filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 768px) {
+    #header-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #nav-bar {
+        justify-content: center;
+    }
 }
