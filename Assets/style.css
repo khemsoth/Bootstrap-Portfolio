@@ -69,10 +69,19 @@ img {
     background: #4aaaa5;
     margin-bottom: 10px;
     margin-left: 20px;
+    border: none;
 }
 
 .container {
     padding: 0;
+}
+
+.port-cont {
+    padding-bottom: 1rem;
+}
+
+.card {
+    margin-bottom: 1rem;
 }
 
 p {
@@ -86,10 +95,6 @@ p {
 hr {
     width: 95%;
     border-top: 2px #ccc solid;
-}
-
-.float-left:hover {
-    filter: grayscale(80%);
 }
 
 .port-label:hover {
