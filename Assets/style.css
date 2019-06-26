@@ -19,7 +19,7 @@ h4 {
 }
 
 h2 {
-    background-color: #4aaaa5;
+    background-color: #154082;
     padding: 10px;
     margin: 0;
     color: #fff;
@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-link active {
-    color: #4aaaa5;
+    color: #154082;
 }
 
 .container {
@@ -44,7 +44,7 @@ nav {
 }
 
 h3 {
-    color: #4aaaa5;
+    color: #154082;
     margin: 1rem;
 }
 
@@ -53,7 +53,7 @@ img {
 }
 
 .port-label {
-    background: #4aaaa5;
+    background: #154082;
     color: #fff;
     width: auto;
     margin: 10px;
@@ -66,7 +66,7 @@ img {
 }
 
 .btn-primary {
-    background: #4aaaa5;
+    background: #154082;
     margin-bottom: 10px;
     margin-left: 20px;
     border: none;
@@ -99,6 +99,7 @@ hr {
 
 .btn-primary:hover {
     background-color: #ccc;
+    color: #154082;
 }
 
 .port-label:hover {
